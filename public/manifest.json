@@ -1,6 +1,6 @@
 {
-  "name": "wikileet-ui",
-  "short_name": "wikileet-ui",
+  "name": "wikileet",
+  "short_name": "wikileet",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",

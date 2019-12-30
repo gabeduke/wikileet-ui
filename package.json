@@ -1,5 +1,5 @@
 {
-  "name": "wikileet-ui",
+  "name": "wikileet",
   "version": "1.0.0",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -128,5 +128,5 @@
     ]
   },
   "readme": "ERROR: No README data found!",
-  "_id": "wikileet-ui@1.0.0"
+  "_id": "wikileet@1.0.0"
 }
