@@ -1,18 +1,7 @@
 {
   "vetur.validation.template": false,
 
-  "prettier.eslintIntegration": true,
-
-  "eslint.autoFixOnSave": true,
   "eslint.options": { "extensions": [".html", ".js", ".vue", ".scss"] },
-  "eslint.validate": [
-    "javascript",
-    {
-      "language": "vue",
-      "autoFix": true
-    }
-  ],
-
   "javascript.validate.enable": false,
   "javascript.format.enable": false,
 
@@ -21,5 +10,8 @@
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "prettier.jsxBracketSameLine": true,
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true
 }

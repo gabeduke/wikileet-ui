@@ -1,21 +1,34 @@
 <template>
   <div class="page-wrapper">
     <h1 class="home-page-title">{{ appTitle }}</h1>
-    <!-- <b-img alt="logo-bento" class="logo" src="require('!!url-loader?limit=0!@/assets/img/DukeFamily.jpg')" /> -->
-    <b-img
-      fluid
-      rounded
-      thumbnail
-      :src="require('../assets/img/DukeFamily.jpg')"
-    ></b-img>
+    <b-container class="bv-example-row">
+      <b-row align-v="start">
+        <b-col sm="6">
+          <b-img
+            fluid
+            rounded
+            thumbnail
+            :src="require('../assets/img/DukeFamily.jpg')"
+          ></b-img>
+        </b-col>
+        <b-col sm="6">
+          <p>
+            To get started:<br />
+            1. log into the site from the top right hand side.<br />
+            2. Head over to the 'MyList' tab to start creating items<br />
+            3. Profit.<br />
+          </p>
+        </b-col>
+      </b-row>
+    </b-container>
 
-    <a
+    <!-- <a
       rel="noopener"
       class="documentation-link"
       target="_blank"
       href="https://bento-starter.netlify.com/"
       >Framework Documentation →</a
-    >
+    > -->
   </div>
 </template>
 
