@@ -1,14 +1,20 @@
 <template>
   <div class="page-wrapper">
     <h1 class="home-page-title">{{ appTitle }}</h1>
-    <img alt="logo-bento" class="logo" src="@/assets/img/bento-starter.svg" />
+    <!-- <b-img alt="logo-bento" class="logo" src="require('!!url-loader?limit=0!@/assets/img/DukeFamily.jpg')" /> -->
+    <b-img
+      fluid
+      rounded
+      thumbnail
+      :src="require('../assets/img/DukeFamily.jpg')"
+    ></b-img>
 
     <a
       rel="noopener"
       class="documentation-link"
       target="_blank"
       href="https://bento-starter.netlify.com/"
-      >Documentation →</a
+      >Framework Documentation →</a
     >
   </div>
 </template>
